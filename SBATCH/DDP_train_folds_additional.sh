@@ -47,7 +47,7 @@ do
 	# 					--num_epochs 2000 \
 	# 					-odir ./DDP_outs/pdbbind_gvpl_esm/%j \
 	# 					-s_t 4320 -s_m 18GB -s_nn 1 -s_ng 4 -s_cp 4
-	# # david_esm_truncated
+	# # davis_esm_truncated
 	python -u train_test_DDP.py --model_opt GVPL_ESM \
 						--data_opt davis_trunc \
 						\
